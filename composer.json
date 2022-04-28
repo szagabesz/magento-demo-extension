@@ -1,0 +1,21 @@
+{
+    "name": "szagabesz/module-demo",
+    "description": "Displays a CMS block on the bottom of the invoice PDF",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Gabor Szabo",
+            "email": "szagabesz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Szagabesz\\Demo\\": ""
+        }
+    }
+}
