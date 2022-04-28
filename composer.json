@@ -9,6 +9,9 @@
             "email": "szagabesz@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=7.4"
+    },
     "minimum-stability": "dev",
     "autoload": {
         "files": [
